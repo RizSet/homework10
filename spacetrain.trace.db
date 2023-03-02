@@ -1,0 +1,27 @@
+2023-03-02 18:29:11 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CLIENT" not found (this database is empty); SQL statement:
+select c1_0.id,c1_0.name from client c1_0 where c1_0.id=? [42104-212]
+2023-03-02 18:30:14 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CLIENT" not found (this database is empty); SQL statement:
+select c1_0.id,c1_0.name from client c1_0 where c1_0.id=? [42104-212]
+2023-03-02 18:30:56 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CLIENT" not found (this database is empty); SQL statement:
+select c1_0.id,c1_0.name from client c1_0 where c1_0.id=? [42104-214]
+2023-03-02 18:31:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CLIENT" not found (this database is empty); SQL statement:
+select c1_0.id,c1_0.name from client c1_0 where c1_0.id=? [42104-214]
+2023-03-02 18:32:03 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CLIENT" not found (this database is empty); SQL statement:
+select c1_0.id,c1_0.name from client c1_0 where c1_0.id=? [42104-214]
+2023-03-02 18:32:50 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CLIENT" not found (this database is empty); SQL statement:
+select c1_0.id,c1_0.name from client c1_0 where c1_0.id=? [42104-214]
+2023-03-02 18:33:51 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CLIENT" not found (this database is empty); SQL statement:
+select c1_0.id,c1_0.name from Client c1_0 where c1_0.id=? [42104-214]
+2023-03-02 18:35:11 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CLIENT" not found (this database is empty); SQL statement:
+select c1_0.id,c1_0.name from CLIENT c1_0 where c1_0.id=? [42104-214]
+2023-03-02 18:35:32 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CLIENT" not found (this database is empty); SQL statement:
+select c1_0.id,c1_0.name from CLIENT c1_0 where c1_0.id=? [42104-214]
