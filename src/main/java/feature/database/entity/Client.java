@@ -1,4 +1,4 @@
-package feature.database.entity.client;
+package feature.database.entity;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

@@ -1,14 +1,13 @@
 package feature.database.hibernate;
 
-import feature.database.entity.client.Client;
-import feature.database.entity.planet.Planet;
+import feature.database.entity.Client;
+import feature.database.entity.Planet;
 import lombok.Getter;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 
 public class HibernateUtil {
     private static final HibernateUtil INSTANCE;
-
     @Getter
     private SessionFactory sessionFactory;
 

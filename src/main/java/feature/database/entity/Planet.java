@@ -1,4 +1,4 @@
-package feature.database.entity.planet;
+package feature.database.entity;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

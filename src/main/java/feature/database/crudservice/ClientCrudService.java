@@ -1,5 +1,6 @@
-package feature.database.entity.client;
+package feature.database.crudservice;
 
+import feature.database.entity.Client;
 import feature.database.hibernate.HibernateUtil;
 import org.hibernate.Session;
 import org.hibernate.Transaction;

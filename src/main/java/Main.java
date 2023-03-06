@@ -1,14 +1,8 @@
-import feature.database.entity.client.Client;
-import feature.database.entity.client.ClientCrudService;
-import feature.database.entity.planet.Planet;
-import feature.database.entity.planet.PlanetCrudService;
-import feature.database.hibernate.HibernateUtil;
+import feature.database.entity.Client;
+import feature.database.crudservice.ClientCrudService;
+import feature.database.entity.Planet;
+import feature.database.crudservice.PlanetCrudService;
 import feature.database.migration.DatabaseInitService;
-import org.hibernate.Session;
-
-import java.sql.Connection;
-import java.sql.SQLException;
-import java.util.List;
 
 public class Main {
     public static void main(String[] args) {

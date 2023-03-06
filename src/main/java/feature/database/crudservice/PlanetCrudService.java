@@ -1,5 +1,6 @@
-package feature.database.entity.planet;
+package feature.database.crudservice;
 
+import feature.database.entity.Planet;
 import feature.database.hibernate.HibernateUtil;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
