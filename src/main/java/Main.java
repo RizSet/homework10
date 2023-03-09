@@ -9,14 +9,13 @@ public class Main {
 
         new DatabaseInitService().initDb();
         System.out.println(new ClientCrudService().getClientById(6));
-        new ClientCrudService().update(new Client(6,"qad"));
+        new ClientCrudService().update(new Client(6, "qad"));
         System.out.println(new ClientCrudService().getClientById(6));
         new ClientCrudService().deleteByName("qad");
         System.out.println(new ClientCrudService().getClientById(6));
 
-        new DatabaseInitService().initDb();
         System.out.println(new PlanetCrudService().getPlanetById(1));
-        new PlanetCrudService().update(new Planet(1,"qad"));
+        new PlanetCrudService().update(new Planet(1, "qad"));
         System.out.println(new PlanetCrudService().getPlanetById(1));
         new PlanetCrudService().deleteByName("qad");
         System.out.println(new PlanetCrudService().getPlanetById(1));
