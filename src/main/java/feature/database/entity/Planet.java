@@ -4,6 +4,7 @@ import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import lombok.ToString;
 
 import java.util.Set;
 
@@ -28,10 +29,12 @@ public class Planet {
     @Column
     private String name;
 
-    @OneToMany(mappedBy = "fromPlanetId", cascade = CascadeType.ALL, fetch = FetchType.EAGER)
+    @ToString.Exclude
+    @OneToMany(mappedBy = "fromPlanetId")
     private Set<Ticket> ticketFrom;
 
-    @OneToMany(mappedBy = "toPlanetId",cascade = CascadeType.ALL, fetch = FetchType.EAGER)
+    @ToString.Exclude
+    @OneToMany(mappedBy = "toPlanetId")
     private Set<Ticket> ticketsTo;
 }
 

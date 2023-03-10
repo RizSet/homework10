@@ -14,6 +14,17 @@ import java.sql.Timestamp;
 @NoArgsConstructor
 public class Ticket {
 
+    public Ticket (Client client){
+        this.client = client;
+    }
+
+    public Ticket (Timestamp createdAt,Client client, Planet fromPlanetId, Planet toPlanetId){
+        this.createdAt = createdAt;
+        this.client = client;
+        this.fromPlanetId = fromPlanetId;
+        this.toPlanetId = toPlanetId;
+    }
+
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Id
     private long id;

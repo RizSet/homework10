@@ -1,10 +1,7 @@
 package feature.database.entity;
 
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.Generated;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 import java.awt.event.ActionListener;
 import java.util.Set;
@@ -30,6 +27,7 @@ public class Client {
     @Column
     private String name;
 
-    @OneToMany(mappedBy = "client", fetch = FetchType.EAGER)
+    @ToString.Exclude
+    @OneToMany(mappedBy = "client")
     private Set<Ticket> tickets;
 }
